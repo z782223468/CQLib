@@ -1,0 +1,6 @@
+framework module CQLib {
+  umbrella header "CQLib-umbrella.h"
+
+  export *
+  module * { export * }
+}

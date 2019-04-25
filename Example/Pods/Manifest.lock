@@ -1,0 +1,27 @@
+PODS:
+  - CQLib (0.1.0)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+
+DEPENDENCIES:
+  - CQLib (from `../`)
+  - FBSnapshotTestCase (~> 2.1.4)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  CQLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CQLib: df7210d2db3cbfaf3053d51ccefaedf92ba0133b
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+
+PODFILE CHECKSUM: c05f36cfa99465776aaafdea9c566eb75c9d72cc
+
+COCOAPODS: 1.5.3
